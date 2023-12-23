@@ -62,7 +62,7 @@ class _ProfilePageState extends State<ProfilePage> {
     }
   }
   _launchURL2() async {
-    const url = 'https://react-chat-app-kohl.vercel.app/app'; // Replace with the URL you want to open
+    const url = 'https://we-chat-sinisterdaddys-projects.vercel.app/'; // Replace with the URL you want to open
     if (await canLaunch(url)) {
       await launch(url);
     } else {
